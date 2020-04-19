@@ -16,8 +16,8 @@ nightly = []
 alloc = []
 default = ["alloc"]
 
-[dependencies]
-memoffset = "0.5.4"
+[dependencies.memoffset]
+git = "https://github.com/Ramla-I/memoffset.git"
 
 [dev-dependencies]
 rand = "0.7.3"
